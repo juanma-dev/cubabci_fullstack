@@ -1,42 +1,218 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #00a2ff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping items*/
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  flex-grow: 1;
+  flex-basis: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+article {
+  flex-grow: 4;
+  flex-basis: 80%;
+  padding: 20px;
+  background-color: #f1f1f1;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #00a2ff;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  /*font-family: 'Courier New', Courier, monospace;*/
+  font-size: 0.80em;
+}
+
+.menu-button {
+  display: none;
+}
+
+ /* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+float: left;
+/*display: block;*/
+color: #f2f2f2;
+text-align: center;
+padding: 14px 14px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a:hover svg {
+fill: black;
+}
+
+.sidebar {
+position:fixed;
+top: 0;
+left: 0;
+height: 100vh;
+width: 250px;
+z-index: 999;
+background-color: #333;
+backdrop-filter: blur(10px);
+/*display: none;*/
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.sidebar a {
+color: #f2f2f2;
+width: 100%;
+display: block;
+padding: 14px 14px;
+text-decoration: none;
+}
+
+.sidebar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.sidebar a:hover svg {
+fill: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
   }
+  .menu-button {
+    display: block;
+  }
+  .hideOnMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+article {
+    white-space: pre-wrap;
+}
+
+#links ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*
+.en {
+display: none;
+}
+*/
+
+.flex-container {
+display: flex;
+flex-direction: column;
+background-color: white;
+height: 450px; /*OJO REMOVER ESTO CUANDO HAYAN MAS ARTICULOS*/
+}
+
+.flex-container > div{
+height: 200px;
+overflow-y: auto;
+padding: 20px;
+margin: 10px;
+background-color: #f1f1f1;
+}
+
+.flex-container a {
+color: inherit; /* Inherit the text color from the parent element */
+text-decoration: none; /* Remove the underline */
+}
+
+.flex-container button {
+  float: right;
+  margin: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.article{
+padding: 25px;
+margin: 15px;
+background-color: #f1f1f1;
+}
+
+.article h2{
+text-align: center;
+}
+
+.pagination-buttons {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-buttons button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.pagination-buttons button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.articlesBrowserInfo {
+  text-align: center;
+  align-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.80em;
 }
