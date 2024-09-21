@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article3() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>The Shamelessness of Hate: The People's Response to Oppression in Cuba and Venezuela</h2>
                 <p>
@@ -47,8 +39,7 @@ function Article3() {
 
                     The author argues that the only viable solution to break the cycle of corruption and shamelessness that oppresses the people in Cuba and Venezuela is military intervention, which would allow for the restoration of freedom and democracy in both countries.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }

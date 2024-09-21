@@ -1,16 +1,8 @@
-import Head from "next/head";
 import NavEN from "@/components/NavEN";
-import Footer from "@/components/Footer";
 
 function Home() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <NavEN parent='Home' />
             <header>
                 <h2>Cuban communist regime uses BCI to control the Cuban people</h2>
@@ -43,8 +35,7 @@ function Home() {
                     Viva Cuba Libre.<br /><br />
                     Patria y Vida.<br /><br />
                 </article>
-            </section>
-            <Footer />
+            </section>            
         </>
     );
 }

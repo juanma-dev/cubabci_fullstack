@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article2() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>El Odioísmo: La Fase Superior del Comunismo</h2>
                 <p>
@@ -97,8 +89,7 @@ function Article2() {
 
                     El odioísmo no es solo una teoría o una exageración; es una realidad que ha devastado países enteros, mostrando el peligro de permitir que un sistema basado en el odio y la desvergüenza se perpetúe. Este artículo es un recordatorio de los horrores que pueden surgir cuando el poder se utiliza no para construir, sino para destruir sistemáticamente a la población que debería proteger.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }

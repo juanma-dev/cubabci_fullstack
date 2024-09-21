@@ -1,17 +1,8 @@
-import Head from "next/head";
 import NavES from "@/components/NavES";
-import Footer from "@/components/Footer";
-
 
 function Diplomatics() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <NavES parent='Diplomatics' />
             <header>
                 <h2>Síndrome de La Habana</h2>
@@ -44,8 +35,7 @@ function Diplomatics() {
 
                     El periódico The New York Times plantea en una <a href="https://www.nytimes.com/es/2019/07/23/espanol/cuba-diplomaticos-cerebro.html" target="_blank" rel="noopener noreferrer">publicación</a> que si la presentación refleja un daño físico de un arma enigmática o algo más, aún está muy lejos de quedar claro, reconocieron los autores. Alcanzar una conclusión firme requeriría probablemente de muchos casos más, una situación que nadie está esperando encontrar.<br /><br />
                 </article>
-            </section>
-            <Footer />
+            </section>            
         </>
     );
 }

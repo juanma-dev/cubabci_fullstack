@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article4() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>The Word of God Against Tyranny and Hatred in Cuba and Venezuela</h2>
                 <p>
@@ -163,8 +155,7 @@ function Article4() {
 
                     May hope in Christ, love for others, and unity among believers be the pillars that guide all those who seek change amid tyranny. And through faith and action, may we one day see a time when justice and peace reign in Cuba, Venezuela, and all places where oppression still persists.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }

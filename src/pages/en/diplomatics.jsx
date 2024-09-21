@@ -1,16 +1,8 @@
-import Head from "next/head";
 import NavEN from "@/components/NavEN";
-import Footer from "@/components/Footer";
 
 function Diplomatics() {
     return (
         <>
-           <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <NavEN parent='Diplomatics'/>
             <header>
                 <h2>Havana syndrome</h2>
@@ -43,8 +35,7 @@ function Diplomatics() {
 
                     The New York Times suggests in a <a href="https://www.nytimes.com/2019/07/23/science/cuba-diplomats-health.html" target="_blank" rel="noopener noreferrer">publication</a> that whether the presentation reflects physical damage from an enigmatic weapon or something else is still far from clear, the authors acknowledged. Reaching a firm conclusion would likely require many more cases, a situation no one is expecting to encounter.<br/><br/>
                 </article>
-            </section>
-            <Footer />
+            </section>           
         </>
     );
 }

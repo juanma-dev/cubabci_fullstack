@@ -1,6 +1,4 @@
-import Head from "next/head";
 import NavES from "@/components/NavES";
-import Footer from "@/components/Footer";
 import Link from 'next/link';
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -54,12 +52,6 @@ function Articles() {
 
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <NavES parent='Articles' />
             <header>
                 <h2>Artículos</h2>
@@ -88,8 +80,7 @@ function Articles() {
                 <button onClick={goToPrev} disabled={currentIndex === 0}><svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" /></svg></button>
                 <button onClick={goToNext} disabled={currentIndex >= articles.length - ITEMS_PER_PAGE}><svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" /></svg></button>
                 <button onClick={goToLast} disabled={currentIndex >= articles.length - ITEMS_PER_PAGE}><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M383-480 200-664l56-56 240 240-240 240-56-56 183-184Zm264 0L464-664l56-56 240 240-240 240-56-56 183-184Z" /></svg></button>
-            </div>
-            <Footer />
+            </div>            
         </>
     );
 }

@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article4() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>La Palabra de Dios contra la tiranía y el odio en Cuba y Venezuela</h2>
                 <p>
@@ -163,8 +155,7 @@ function Article4() {
 
                     Que la esperanza en Cristo, el amor por el prójimo, y la unidad entre los creyentes sean los pilares que guíen a todos aquellos que buscan un cambio en medio de la tiranía. Y que, a través de la fe y la acción, podamos ver un día en que la justicia y la paz reinen en Cuba, Venezuela, y en todos los lugares donde la opresión aún persiste.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }

@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article1() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>The Law of Shamelessness: The Codification of Cynicism in the Regimes of Venezuela and Cuba</h2>
                 <p>
@@ -91,8 +83,7 @@ function Article1() {
 
                     The Law of Shamelessness in Venezuela and Cuba is an extreme expression of how absolute power corrupts absolutely. When cynicism becomes a tool of governance, the result is an environment where truth is distorted, justice is subverted, and public morality is degraded. However, history has shown that such regimes, no matter how strong they may seem, are not invulnerable.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }

@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article2() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>Hateism: The Superior Stage of Communism</h2>
                 <p>
@@ -97,8 +89,7 @@ function Article2() {
 
                     Hateism is not just a theory or an exaggeration; it is a reality that has devastated entire countries, showing the danger of allowing a system based on hatred and shamelessness to perpetuate itself. This article is a reminder of the horrors that can arise when power is used not to build but to systematically destroy the population it should protect.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }

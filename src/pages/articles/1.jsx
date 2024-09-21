@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article1() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>La Ley del Descaro: La Codificación del Cinismo en los Regímenes de Venezuela y Cuba</h2>
                 <p>
@@ -91,8 +83,7 @@ function Article1() {
 
                     La Ley del Descaro en Venezuela y Cuba es una expresión extrema de cómo el poder absoluto corrompe absolutamente. Cuando el cinismo se convierte en una herramienta de gobernanza, el resultado es un entorno donde la verdad se distorsiona, la justicia se subvierte y la moralidad pública se degrada. Sin embargo, la historia ha demostrado que tales regímenes, por muy fuertes que parezcan, no son invulnerables.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }

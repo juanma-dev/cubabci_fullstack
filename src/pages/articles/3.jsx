@@ -1,15 +1,7 @@
-import Footer from "@/components/Footer";
-import Head from "next/head";
 
 function Article3() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Denuncia Cuba BCI</title>
-            </Head>
             <div className="article">
                 <h2>El Descaro del Odio: La Respuesta del Pueblo Ante la Opresión en Cuba y Venezuela</h2>
                 <p>
@@ -47,8 +39,7 @@ function Article3() {
 
                     El autor sostiene que la única solución viable para romper el ciclo de corrupción y descaro que oprime al pueblo en Cuba y Venezuela es una intervención militar, la cual permitiría restaurar la libertad y la democracia en ambos países.<br /><br />
                 </p>
-            </div >
-            <Footer />
+            </div >            
         </>
     );
 }
