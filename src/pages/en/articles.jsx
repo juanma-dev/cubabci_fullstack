@@ -22,6 +22,11 @@ const articles = [
         title: "The Word of God Against Tyranny and Hatred in Cuba and Venezuela",
         introduction: 'In times of oppression and dictatorship, as experienced in Cuba and Venezuela, where the government has instituted a law of shamelessness and embraced hatred, the people face profound darkness. These regimes not only seek to physically control and subjugate the population but also attempt to destroy their spirit and crush any hope for freedom. Amid such adverse circumstances, the Word of God stands as an inexhaustible source of hope, courage, and resistance.',
         index: 4
+    },
+    {
+        title: "The Future of Cuba: A Rebirth Towards Democracy and Freedom",
+        introduction: 'For decades, Cuba has been trapped under the yoke of authoritarianism, poverty, and repression. However, envisioning a future where the Caribbean island thrives as a vibrant, pluralistic, and prosperous democracy is not just a utopian aspiration but a tangible possibility. This article outlines how, under a new democratic order, the Cuban people could build a country where freedom, justice, and prosperity are the cornerstones of a new society. While the road would not be easy, Cuban ingenuity and effort, along with international support, could transform Cuba into a beacon of hope in the Caribbean.',
+        index: 5
     }
 ];
 

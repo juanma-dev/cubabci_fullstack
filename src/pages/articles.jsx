@@ -22,6 +22,11 @@ const articles = [
         title: 'La Palabra de Dios contra la tiranía y el odio en Cuba y Venezuela',
         introduction: 'En tiempos de opresión y dictadura, como los vividos en Cuba y Venezuela, donde el gobierno ha instituido la ley del descaro y ha adoptado el odio, los pueblos enfrentan una profunda oscuridad. Estos regímenes no solo buscan controlar y someter físicamente a la población, sino que también intentan destruir su espíritu y aplastar cualquier esperanza de libertad. En medio de estas circunstancias tan adversas, la Palabra de Dios se alza como una fuente inagotable de esperanza, coraje y resistencia.',
         index: 4
+    },
+    {
+        title: 'El futuro de Cuba: Un renacer hacia la democracia y la libertad',
+        introduction: 'Cuba ha sido durante décadas un país atrapado en el yugo del autoritarismo, la pobreza y la represión. Sin embargo, imaginar un futuro en el que la isla caribeña florezca como una democracia vibrante, pluralista y próspera no es solo una aspiración utópica, sino una posibilidad palpable. Este artículo plantea cómo, bajo un nuevo orden democrático, el pueblo cubano podría construir un país donde la libertad, la justicia y la prosperidad sean la piedra angular de una nueva sociedad. Aunque el camino no sería fácil, el ingenio y el esfuerzo del cubano, junto con la ayuda internacional, podrían transformar a Cuba en un faro de esperanza en el Caribe.',
+        index: 5
     }
 ];
 
