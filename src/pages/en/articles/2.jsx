@@ -1,7 +1,9 @@
+import NavEN from "@/components/NavEN";
 
 function Article2() {
     return (
         <>
+            <NavEN parent="2"/>
             <div className="article">
                 <h2>Hateism: The Superior Stage of Communism</h2>
                 <p>

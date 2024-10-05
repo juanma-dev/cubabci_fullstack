@@ -1,7 +1,9 @@
+import NavES from "@/components/NavES";
 
 function Article2() {
     return (
         <>
+            <NavES parent="2"/>
             <div className="article">
                 <h2>El Odioísmo: La Fase Superior del Comunismo</h2>
                 <p>

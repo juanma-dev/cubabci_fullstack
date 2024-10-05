@@ -1,7 +1,9 @@
+import NavEN from "@/components/NavEN";
 
 function Article5() {
     return (
         <>
+            <NavEN parent="5"/>
             <div className="article">
                 <h2>The Future of Cuba: A Rebirth Towards Democracy and Freedom</h2>
                 <p>

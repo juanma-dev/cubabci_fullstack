@@ -1,7 +1,9 @@
+import NavES from "@/components/NavES";
 
 function Article5() {
     return (
         <>
+            <NavES parent="5"/>
             <div className="article">
                 <h2>El futuro de Cuba: Un renacer hacia la democracia y la libertad</h2>
                 <p>

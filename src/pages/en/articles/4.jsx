@@ -1,7 +1,9 @@
+import NavEN from "@/components/NavEN";
 
 function Article4() {
     return (
         <>
+            <NavEN parent="4"/>
             <div className="article">
                 <h2>The Word of God Against Tyranny and Hatred in Cuba and Venezuela</h2>
                 <p>

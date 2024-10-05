@@ -1,7 +1,9 @@
+import NavEN from "@/components/NavEN";
 
 function Article1() {
     return (
         <>
+            <NavEN parent="1"/>
             <div className="article">
                 <h2>The Law of Shamelessness: The Codification of Cynicism in the Regimes of Venezuela and Cuba</h2>
                 <p>

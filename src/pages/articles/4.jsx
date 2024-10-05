@@ -1,7 +1,9 @@
+import NavES from "@/components/NavES";
 
 function Article4() {
     return (
         <>
+            <NavES parent="4"/>
             <div className="article">
                 <h2>La Palabra de Dios contra la tiranía y el odio en Cuba y Venezuela</h2>
                 <p>

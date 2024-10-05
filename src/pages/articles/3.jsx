@@ -1,7 +1,9 @@
+import NavES from "@/components/NavES";
 
 function Article3() {
     return (
         <>
+            <NavES parent="3"/>
             <div className="article">
                 <h2>El Descaro del Odio: La Respuesta del Pueblo Ante la Opresión en Cuba y Venezuela</h2>
                 <p>

@@ -1,7 +1,9 @@
+import NavES from "@/components/NavES";
 
 function Article1() {
     return (
         <>
+            <NavES parent="1"/>
             <div className="article">
                 <h2>La Ley del Descaro: La Codificación del Cinismo en los Regímenes de Venezuela y Cuba</h2>
                 <p>
