@@ -4,8 +4,10 @@ function Article2() {
     return (
         <>
             <NavEN parent="2"/>
+            <header>
+                <h3>Hateism: The Superior Stage of Communism</h3>
+            </header>
             <div className="article">
-                <h2>Hateism: The Superior Stage of Communism</h2>
                 <p>
                     <b>Introduction</b><br /><br />
 

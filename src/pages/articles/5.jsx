@@ -4,8 +4,10 @@ function Article5() {
     return (
         <>
             <NavES parent="5"/>
+            <header>
+                <h3>El futuro de Cuba: Un renacer hacia la democracia y la libertad</h3>
+            </header>
             <div className="article">
-                <h2>El futuro de Cuba: Un renacer hacia la democracia y la libertad</h2>
                 <p>
                     <b>Introducción</b><br /><br />
 

@@ -4,8 +4,10 @@ function Article5() {
     return (
         <>
             <NavEN parent="5"/>
+            <header>
+                <h3>The Future of Cuba: A Rebirth Towards Democracy and Freedom</h3>
+            </header>
             <div className="article">
-                <h2>The Future of Cuba: A Rebirth Towards Democracy and Freedom</h2>
                 <p>
                     <b>Introduction</b><br /><br />
 

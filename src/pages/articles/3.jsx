@@ -4,8 +4,10 @@ function Article3() {
     return (
         <>
             <NavES parent="3"/>
+            <header>
+                <h3>El Descaro del Odio: La Respuesta del Pueblo Ante la Opresión en Cuba y Venezuela</h3>
+            </header>
             <div className="article">
-                <h2>El Descaro del Odio: La Respuesta del Pueblo Ante la Opresión en Cuba y Venezuela</h2>
                 <p>
                     <b>Introducción</b><br /><br />
 

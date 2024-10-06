@@ -3,9 +3,11 @@ import NavES from "@/components/NavES";
 function Article1() {
     return (
         <>
-            <NavES parent="1"/>
+            <NavES parent="1" />
+            <header>
+                <h3>La Ley del Descaro: La Codificación del Cinismo en los Regímenes de Venezuela y Cuba</h3>
+            </header>
             <div className="article">
-                <h2>La Ley del Descaro: La Codificación del Cinismo en los Regímenes de Venezuela y Cuba</h2>
                 <p>
                     <b>Introducción</b><br /><br />
 
@@ -85,7 +87,7 @@ function Article1() {
 
                     La Ley del Descaro en Venezuela y Cuba es una expresión extrema de cómo el poder absoluto corrompe absolutamente. Cuando el cinismo se convierte en una herramienta de gobernanza, el resultado es un entorno donde la verdad se distorsiona, la justicia se subvierte y la moralidad pública se degrada. Sin embargo, la historia ha demostrado que tales regímenes, por muy fuertes que parezcan, no son invulnerables.<br /><br />
                 </p>
-            </div >            
+            </div >
         </>
     );
 }

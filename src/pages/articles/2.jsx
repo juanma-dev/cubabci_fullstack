@@ -4,8 +4,10 @@ function Article2() {
     return (
         <>
             <NavES parent="2"/>
+            <header>
+                <h3>El Odioísmo: La Fase Superior del Comunismo</h3>
+            </header>
             <div className="article">
-                <h2>El Odioísmo: La Fase Superior del Comunismo</h2>
                 <p>
                     <b>Introducción</b><br /><br />
 

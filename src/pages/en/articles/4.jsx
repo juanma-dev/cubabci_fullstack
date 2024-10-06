@@ -4,8 +4,10 @@ function Article4() {
     return (
         <>
             <NavEN parent="4"/>
+            <header>
+                <h3>The Word of God Against Tyranny and Hatred in Cuba and Venezuela</h3>
+            </header>
             <div className="article">
-                <h2>The Word of God Against Tyranny and Hatred in Cuba and Venezuela</h2>
                 <p>
                     <b>Introduction</b><br /><br />
 

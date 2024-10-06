@@ -4,8 +4,10 @@ function Article3() {
     return (
         <>
             <NavEN parent="3"/>
+            <header>
+                <h3>The Shamelessness of Hate: The People's Response to Oppression in Cuba and Venezuela</h3>
+            </header>
             <div className="article">
-                <h2>The Shamelessness of Hate: The People's Response to Oppression in Cuba and Venezuela</h2>
                 <p>
                     <b>Introduction</b><br /><br />
 

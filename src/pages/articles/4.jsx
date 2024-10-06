@@ -4,8 +4,10 @@ function Article4() {
     return (
         <>
             <NavES parent="4"/>
+            <header>
+                <h3>La Palabra de Dios contra la tiranía y el odio en Cuba y Venezuela</h3>
+            </header>
             <div className="article">
-                <h2>La Palabra de Dios contra la tiranía y el odio en Cuba y Venezuela</h2>
                 <p>
                     <b>Introducción</b><br /><br />
 
