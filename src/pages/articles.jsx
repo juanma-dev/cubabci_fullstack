@@ -65,7 +65,7 @@ function Articles() {
             <div className="flex-container">
                 {currentArticles.map((item, index) => (
                     <div ref={(el) => divRefs.current[index] = el}>
-                        <Link href={"/articles/" + (item.index)} target="_blank">
+                        <Link href={"/articles/" + (item.index)}>
                             <h3>{item.title}</h3>
                             <h4>Introducción</h4>
                             <p>{item.introduction}</p>
