@@ -15,6 +15,9 @@ export function getRoute(parent) {
             case 'Articles':
                 route = '/articles';
                 break;
+            case 'Polls':
+                route = '/polls';
+                break;
             default:
                 route = '/';
                 break;
@@ -37,6 +40,9 @@ export function getRouteEN(parent) {
                 break;
             case 'Articles':
                 route = '/en/articles';
+                break;
+            case 'Polls':
+                route = '/en/polls';
                 break;
             default:
                 route = '/en';

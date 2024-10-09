@@ -23,6 +23,7 @@ function NavEN({parent}) {
                 <Link onClick={closeSidebar} href="/en">Home</Link>
                 <Link onClick={closeSidebar} href="/en/diplomatics">Havana syndrome</Link>
                 <Link onClick={closeSidebar} href="/en/articles">Articles</Link>
+                <Link onClick={closeSidebar} href="/en/polls">Polls</Link>
             </div >
             )}
             <div className="topnav es">
@@ -30,6 +31,7 @@ function NavEN({parent}) {
                 <Link className="hideOnMobile" href="/en">Home</Link>
                 <Link className="hideOnMobile" href="/en/diplomatics">Havana syndrome</Link>
                 <Link className="hideOnMobile" href="/en/articles">Articles</Link>
+                <Link className="hideOnMobile" href="/en/polls">Polls</Link>
                 <Link style={{ float: 'right' }} href={getRoute(parent)}>ES</Link>
                 <Link style={{ float: 'right' }} href={getRouteEN(parent)}>EN</Link>
             </div >

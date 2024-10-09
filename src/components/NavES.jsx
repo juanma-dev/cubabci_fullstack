@@ -24,6 +24,7 @@ function NavES({parent}) {
                     <Link onClick={closeSidebar} href="/">Inicio</Link>
                     <Link onClick={closeSidebar} href="/diplomatics">Síndrome de La Habana</Link>
                     <Link onClick={closeSidebar} href="/articles">Artículos</Link>
+                    <Link onClick={closeSidebar} href="/polls">Encuestas</Link>
                 </div >
             )}
             <div className="topnav es">
@@ -31,6 +32,7 @@ function NavES({parent}) {
                 <Link className="hideOnMobile" href="/">Inicio</Link>
                 <Link className="hideOnMobile" href="/diplomatics">Síndrome de La Habana</Link>
                 <Link className="hideOnMobile" href="/articles">Artículos</Link>
+                <Link className="hideOnMobile" href="/polls">Encuestas</Link>
                 <Link style={{ float: 'right' }} href={getRoute(parent)}>ES</Link>
                 <Link style={{ float: 'right' }} href={getRouteEN(parent)}>EN</Link>
             </div >
