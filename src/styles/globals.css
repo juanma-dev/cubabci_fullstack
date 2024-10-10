@@ -131,6 +131,10 @@ fill: black;
   flex-flow: column;
 }
 
+.pollContainer h1{
+  text-align: center;
+}
+
 .freedomPollContainer {
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
