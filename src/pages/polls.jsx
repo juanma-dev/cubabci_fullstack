@@ -75,7 +75,7 @@ export default function Polls() {
                         <h2>Participe en la ecuesta</h2>
                         <form onSubmit={handleSubmit}>
                             <div>
-                                <label htmlFor="fullName">Full Name</label>
+                                <label htmlFor="fullName">Nombre completo</label>
                                 <input
                                     type="text"
                                     id="fullName"
@@ -86,7 +86,7 @@ export default function Polls() {
                             </div>
 
                             <div>
-                                <label htmlFor="email">Email</label>
+                                <label htmlFor="email">Correo electrónico</label>
                                 <input
                                     type="email"
                                     id="email"
