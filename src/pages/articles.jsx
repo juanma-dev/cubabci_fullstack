@@ -27,6 +27,11 @@ const articles = [
         title: 'El futuro de Cuba: Un renacer hacia la democracia y la libertad',
         introduction: 'Cuba ha sido durante décadas un país atrapado en el yugo del autoritarismo, la pobreza y la represión. Sin embargo, imaginar un futuro en el que la isla caribeña florezca como una democracia vibrante, pluralista y próspera no es solo una aspiración utópica, sino una posibilidad palpable. Este artículo plantea cómo, bajo un nuevo orden democrático, el pueblo cubano podría construir un país donde la libertad, la justicia y la prosperidad sean la piedra angular de una nueva sociedad. Aunque el camino no sería fácil, el ingenio y el esfuerzo del cubano, junto con la ayuda internacional, podrían transformar a Cuba en un faro de esperanza en el Caribe.',
         index: 5
+    },
+    {
+        title: 'Neuroderechos en la Era Digital: La Urgente Necesidad de Proteger la Mente en la Era de la BCI Avanzada',
+        introduction: 'En este artículo se analiza la imperiosa necesidad de regular y proteger los “neuroderechos”, se examinan los posibles peligros derivados del uso inadecuado de estas tecnologías y se presenta el caso pionero de Chile, que en 2023 instauró una ley orientada a la protección de estos derechos. Asimismo, se proponen directrices, mecanismos de control y estrategias para impulsar una legislación que garantice la integridad mental y prevenga cualquier forma de manipulación neuronal.',
+        index: 6
     }
 ];
 

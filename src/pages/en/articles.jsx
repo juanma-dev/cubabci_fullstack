@@ -27,6 +27,11 @@ const articles = [
         title: "The Future of Cuba: A Rebirth Towards Democracy and Freedom",
         introduction: 'For decades, Cuba has been trapped under the yoke of authoritarianism, poverty, and repression. However, envisioning a future where the Caribbean island thrives as a vibrant, pluralistic, and prosperous democracy is not just a utopian aspiration but a tangible possibility. This article outlines how, under a new democratic order, the Cuban people could build a country where freedom, justice, and prosperity are the cornerstones of a new society. While the road would not be easy, Cuban ingenuity and effort, along with international support, could transform Cuba into a beacon of hope in the Caribbean.',
         index: 5
+    },
+    {
+        title: "Neurorights in the Digital Age: The Urgent Need to Protect the Mind in the Era of Advanced BCI",
+        introduction: 'This article examines the pressing need to regulate and protect "neurorights", explores the potential dangers resulting from the improper use of these technologies, and presents the pioneering case of Chile, which in 2023 enacted a law aimed at protecting these rights. Additionally, it proposes guidelines, control mechanisms, and strategies to promote legislation that guarantees mental integrity and prevents any form of neural manipulation.',
+        index: 6
     }
 ];
 
