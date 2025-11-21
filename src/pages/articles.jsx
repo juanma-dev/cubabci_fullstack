@@ -32,6 +32,11 @@ const articles = [
         title: 'Neuroderechos en la Era Digital: La Urgente Necesidad de Proteger la Mente en la Era de la BCI Avanzada',
         introduction: 'En este artículo se analiza la imperiosa necesidad de regular y proteger los “neuroderechos”, se examinan los posibles peligros derivados del uso inadecuado de estas tecnologías y se presenta el caso pionero de Chile, que en 2023 instauró una ley orientada a la protección de estos derechos. Asimismo, se proponen directrices, mecanismos de control y estrategias para impulsar una legislación que garantice la integridad mental y prevenga cualquier forma de manipulación neuronal.',
         index: 6
+    },
+    {
+        title: 'Crímenes que han cometido contra mí con BCI avanzada',
+        introduction: 'Tras mi salida de Cuba hacia Colombia en 2019 pensé invadir a Cuba tras ver un vídeo de un señor a quien la seguridad del Estado cubana le había asesinado las dos hijas. Al entrar a Cuba en el mismo año sentí el acoso inmediato de militares cubanos en casa de vecinos. Luego de varios eventos en donde le dije chivato a un militar, los vecinos me dijeron que la policía le tiró fotos a mi casa y un acoso que duró todos los años de la pandemia, tuvieron lugar las torturas que denuncio.',
+        index: 7
     }
 ];
 

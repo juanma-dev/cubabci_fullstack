@@ -32,6 +32,11 @@ const articles = [
         title: "Neurorights in the Digital Age: The Urgent Need to Protect the Mind in the Era of Advanced BCI",
         introduction: 'This article examines the pressing need to regulate and protect "neurorights", explores the potential dangers resulting from the improper use of these technologies, and presents the pioneering case of Chile, which in 2023 enacted a law aimed at protecting these rights. Additionally, it proposes guidelines, control mechanisms, and strategies to promote legislation that guarantees mental integrity and prevents any form of neural manipulation.',
         index: 6
+    },
+    {
+        title: "Crimes committed against me with advanced BCI",
+        introduction: 'After leaving Cuba for Colombia in 2019, I thought about invading Cuba after watching a video of a man whose two daughters had been murdered by Cuban State Security. When I entered Cuba that same year, I immediately felt the harassment of Cuban military personnel at neighbors’ houses. After several events in which I called a soldier snitch, the neighbors told me that the police had taken photos of my house, and harassment that lasted throughout the pandemic years took place, leading to the tortures I denounce.',
+        index: 7
     }
 ];
 

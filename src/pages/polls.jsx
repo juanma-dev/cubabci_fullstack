@@ -72,7 +72,7 @@ export default function Polls() {
                         </div>
                     </div>
                     <div className="form-container">
-                        <h2>Participe en la ecuesta</h2>
+                        <h2>Participe en la encuesta</h2>
                         <form onSubmit={handleSubmit}>
                             <div>
                                 <label htmlFor="fullName">Nombre completo</label>
