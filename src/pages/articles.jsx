@@ -37,6 +37,11 @@ const articles = [
         title: 'Crímenes que han cometido contra mí con BCI avanzada',
         introduction: 'Tras mi salida de Cuba hacia Colombia en 2019 pensé invadir a Cuba tras ver un vídeo de un señor a quien la seguridad del Estado cubana le había asesinado las dos hijas. Al entrar a Cuba en el mismo año sentí el acoso inmediato de militares cubanos en casa de vecinos. Luego de varios eventos en donde le dije chivato a un militar, los vecinos me dijeron que la policía le tiró fotos a mi casa y un acoso que duró todos los años de la pandemia, tuvieron lugar las torturas que denuncio.',
         index: 7
+    },
+    {
+        title: 'Cuba como objetivo militar necesario para la libertad de toda América',
+        introduction: 'En el mapa geopolítico de América Latina, Venezuela aparece delimitada por sus fronteras históricas, con su propia bandera, himno y asiento en las Naciones Unidas. Sin embargo, un análisis forense de su estructura de poder, sus flujos económicos y su aparato de inteligencia revela una realidad mucho más oscura: Venezuela ha dejado de ser una nación soberana para convertirse en el experimento colonial más exitoso del siglo XXI. No fue una invasión con tanques ni bombardeos aéreos; fue una conquista silenciosa, ideológica y operativa orquestada desde La Habana.',
+        index: 8
     }
 ];
 
