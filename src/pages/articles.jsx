@@ -42,6 +42,11 @@ const articles = [
         title: 'Cuba como objetivo militar necesario para la libertad de toda América',
         introduction: 'En el mapa geopolítico de América Latina, Venezuela aparece delimitada por sus fronteras históricas, con su propia bandera, himno y asiento en las Naciones Unidas. Sin embargo, un análisis forense de su estructura de poder, sus flujos económicos y su aparato de inteligencia revela una realidad mucho más oscura: Venezuela ha dejado de ser una nación soberana para convertirse en el experimento colonial más exitoso del siglo XXI. No fue una invasión con tanques ni bombardeos aéreos; fue una conquista silenciosa, ideológica y operativa orquestada desde La Habana.',
         index: 8
+    },
+    {
+        title: 'Crímenes que han cometido contra mí con BCI avanzada (Parte 2)',
+        introduction: 'Escribo esto bajo circunstancias extremas: continúo sometido a los efectos de esta tecnología y mi autonomía cerebral sigue vulnerada. Hago este esfuerzo, en la medida en que mis capacidades actuales me lo permiten, para dejar un registro histórico y lanzar una advertencia urgente a la humanidad sobre estos abusos.',
+        index: 9
     }
 ];
 

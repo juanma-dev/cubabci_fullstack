@@ -42,6 +42,11 @@ const articles = [
         title: "Cuba as a Necessary Military Objective for the Freedom of All the Americas",
         introduction: 'On the geopolitical map of Latin America, Venezuela appears delimited by its historical borders, with its own flag, anthem, and seat at the United Nations. However, a forensic analysis of its power structure, economic flows, and intelligence apparatus reveals a much darker reality: Venezuela has ceased to be a sovereign nation and has become the most successful colonial experiment of the 21st century. It was not an invasion with tanks or aerial bombardments; it was a silent, ideological, and operational conquest orchestrated from Havana.',
         index: 8
+    },
+    {
+        title: "Crimes Committed Against Me with Advanced BCI (Part 2)",
+        introduction: 'I write this under extreme circumstances: I remain subjected to the effects of this technology and my cerebral autonomy remains violated. I make this effort, to the extent that my current capabilities allow, to leave a historical record and issue an urgent warning to humanity about these abuses.',
+        index: 9
     }
 ];
 
