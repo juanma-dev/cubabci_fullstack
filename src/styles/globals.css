@@ -166,6 +166,16 @@ header h2 {
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 
+header h3 {
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
 /* ============================================================
    SECTION  (main content wrapper: nav + article)
    ============================================================ */
@@ -924,6 +934,18 @@ span {
   color: var(--text-secondary);
   line-height: 1.85;
   font-size: 1.02rem;
+}
+
+.article a {
+  color: var(--accent-blue);
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.article a:hover {
+  color: var(--accent-blue-soft);
+  border-bottom-color: var(--accent-blue-soft);
 }
 
 .article h2,
