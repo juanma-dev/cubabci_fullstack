@@ -22,7 +22,7 @@ function NavES({parent}) {
         <>
             {isSidebarOpen && (
                 <div className="sidebar">
-                    <a onClick={closeSidebar} href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f2f2f2"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg></a>
+                    <a onClick={closeSidebar} href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1a1a2e"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg></a>
                     <Link onClick={closeSidebar} href="/" className={activePage === 'Home' ? 'nav-active' : ''}>Inicio</Link>
                     <Link onClick={closeSidebar} href="/diplomatics" className={activePage === 'Diplomatics' ? 'nav-active' : ''}>Síndrome de La Habana</Link>
                     <Link onClick={closeSidebar} href="/articles" className={activePage === 'Articles' ? 'nav-active' : ''}>Artículos</Link>
@@ -30,7 +30,7 @@ function NavES({parent}) {
                 </div >
             )}
             <div className="topnav es">
-                <a onClick={openSidebar} className="menu-button" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f2f2f2"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg></a>
+                <a onClick={openSidebar} className="menu-button" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1a1a2e"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg></a>
                 <Link className={`hideOnMobile ${activePage === 'Home' ? 'nav-active' : ''}`} href="/">Inicio</Link>
                 <Link className={`hideOnMobile ${activePage === 'Diplomatics' ? 'nav-active' : ''}`} href="/diplomatics">Síndrome de La Habana</Link>
                 <Link className={`hideOnMobile ${activePage === 'Articles' ? 'nav-active' : ''}`} href="/articles">Artículos</Link>

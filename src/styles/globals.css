@@ -1,47 +1,47 @@
 /* ============================================================
-   CUBABCI.COM — Premium Dark Theme
-   Design System: Dark with Cuban blue/red accents
+   CUBABCI.COM — Premium Light Theme
+   Design System: Light with Cuban flag colors (blue, white, red)
    Typography: Inter (Google Fonts)
    ============================================================ */
 
 /* --- CSS Custom Properties --- */
 :root {
-  /* Core palette */
-  --bg-primary: #0a0e17;
-  --bg-secondary: #111827;
-  --bg-card: #1a2035;
-  --bg-card-hover: #1f2847;
-  --bg-elevated: rgba(26, 32, 53, 0.85);
+  /* Core palette — light backgrounds */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f4f8;
+  --bg-card: #f8fafc;
+  --bg-card-hover: #eef2f7;
+  --bg-elevated: rgba(255, 255, 255, 0.92);
 
-  /* Accent colors (Cuban flag inspired) */
-  --accent-blue: #3b82f6;
-  --accent-blue-soft: #60a5fa;
-  --accent-blue-glow: rgba(59, 130, 246, 0.25);
-  --accent-red: #ef4444;
-  --accent-red-soft: #f87171;
+  /* Accent colors (Cuban flag) */
+  --accent-blue: #002a8f;
+  --accent-blue-soft: #0041c2;
+  --accent-blue-glow: rgba(0, 42, 143, 0.18);
+  --accent-red: #cf142b;
+  --accent-red-soft: #e63946;
 
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-  --gradient-header: linear-gradient(135deg, #1e3a5f 0%, #0f172a 50%, #3b1a1a 100%);
-  --gradient-hero: linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, transparent 60%);
-  --gradient-sidebar: linear-gradient(180deg, #111827 0%, #1a2035 100%);
+  --gradient-primary: linear-gradient(135deg, #002a8f 0%, #cf142b 100%);
+  --gradient-header: linear-gradient(135deg, #002a8f 0%, #00379e 50%, #cf142b 100%);
+  --gradient-hero: linear-gradient(180deg, rgba(0, 42, 143, 0.04) 0%, transparent 60%);
+  --gradient-sidebar: linear-gradient(180deg, #ffffff 0%, #f0f4f8 100%);
 
   /* Text */
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-  --text-accent: #60a5fa;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --text-accent: #002a8f;
 
   /* Borders */
-  --border-subtle: rgba(148, 163, 184, 0.08);
-  --border-medium: rgba(148, 163, 184, 0.15);
-  --border-accent: rgba(59, 130, 246, 0.3);
+  --border-subtle: rgba(0, 42, 143, 0.08);
+  --border-medium: rgba(0, 42, 143, 0.15);
+  --border-accent: rgba(0, 42, 143, 0.3);
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
-  --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.1);
+  --shadow-sm: 0 1px 3px rgba(0, 42, 143, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 42, 143, 0.1);
+  --shadow-lg: 0 8px 32px rgba(0, 42, 143, 0.12);
+  --shadow-glow: 0 0 40px rgba(0, 42, 143, 0.06);
 
   /* Spacing */
   --nav-height: 60px;
@@ -92,9 +92,9 @@ body::before {
   width: 100%;
   height: 100%;
   background:
-    radial-gradient(ellipse 800px 600px at 20% 20%, rgba(59, 130, 246, 0.06), transparent),
-    radial-gradient(ellipse 600px 500px at 80% 80%, rgba(139, 92, 246, 0.04), transparent),
-    radial-gradient(ellipse 500px 400px at 50% 50%, rgba(239, 68, 68, 0.03), transparent);
+    radial-gradient(ellipse 800px 600px at 20% 20%, rgba(0, 42, 143, 0.03), transparent),
+    radial-gradient(ellipse 600px 500px at 80% 80%, rgba(207, 20, 43, 0.02), transparent),
+    radial-gradient(ellipse 500px 400px at 50% 50%, rgba(0, 42, 143, 0.02), transparent);
   pointer-events: none;
   z-index: 0;
 }
@@ -118,7 +118,7 @@ header {
   background: var(--gradient-header);
   padding: 56px 32px;
   text-align: center;
-  color: var(--text-primary);
+  color: #ffffff;
   border-bottom: 1px solid var(--border-subtle);
   overflow: hidden;
 }
@@ -294,7 +294,7 @@ article a:hover {
   display: flex;
   align-items: center;
   overflow: visible;
-  background: rgba(17, 24, 39, 0.92);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid var(--border-subtle);
@@ -364,7 +364,7 @@ article a:hover {
 
 .sidebar a.nav-active {
   color: var(--text-primary);
-  background: rgba(59, 130, 246, 0.12);
+  background: rgba(0, 42, 143, 0.08);
   border-left: 3px solid var(--accent-blue);
   padding-left: 21px;
 }
@@ -383,7 +383,7 @@ article a:hover {
   display: flex;
   align-items: center;
   gap: 4px;
-  background: rgba(59, 130, 246, 0.12);
+  background: rgba(0, 42, 143, 0.06);
   border: 1px solid var(--border-accent);
   border-radius: var(--radius-sm);
   color: var(--text-accent);
@@ -397,7 +397,7 @@ article a:hover {
 }
 
 .lang-current:hover {
-  background: rgba(59, 130, 246, 0.2);
+  background: rgba(0, 42, 143, 0.12);
   border-color: var(--accent-blue);
   color: var(--text-primary);
 }
@@ -437,7 +437,7 @@ article a:hover {
 }
 
 .lang-dropdown a:hover {
-  background: rgba(59, 130, 246, 0.12);
+  background: rgba(0, 42, 143, 0.06);
   color: var(--text-primary);
 }
 
@@ -471,7 +471,7 @@ article a:hover {
   justify-content: flex-start;
   padding-top: 12px;
   border-right: 1px solid var(--border-subtle);
-  box-shadow: 4px 0 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 0 40px rgba(0, 42, 143, 0.1);
   animation: slideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -500,7 +500,7 @@ article a:hover {
 }
 
 .sidebar a:hover {
-  background: rgba(59, 130, 246, 0.1);
+  background: rgba(0, 42, 143, 0.06);
   color: var(--text-primary);
   padding-left: 32px;
 }
@@ -556,14 +556,14 @@ footer p {
 footer img {
   border-radius: 50%;
   border: 3px solid var(--border-medium);
-  box-shadow: var(--shadow-md), 0 0 20px rgba(59, 130, 246, 0.1);
+  box-shadow: var(--shadow-md), 0 0 20px rgba(0, 42, 143, 0.08);
   transition: transform var(--transition-base), box-shadow var(--transition-base);
   margin-bottom: 12px;
 }
 
 footer img:hover {
   transform: scale(1.08);
-  box-shadow: var(--shadow-lg), 0 0 30px rgba(59, 130, 246, 0.2);
+  box-shadow: var(--shadow-lg), 0 0 30px rgba(0, 42, 143, 0.12);
 }
 
 /* Clear floats after the columns */
@@ -612,7 +612,7 @@ section::after {
 }
 
 .freedomPollContainer:hover {
-  box-shadow: var(--shadow-lg), 0 0 60px rgba(59, 130, 246, 0.12);
+  box-shadow: var(--shadow-lg), 0 0 60px rgba(0, 42, 143, 0.08);
 }
 
 .results-container {
@@ -712,7 +712,7 @@ input[type="radio"] {
 
 .freedomPollContainer button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(59, 130, 246, 0.35);
+  box-shadow: 0 6px 24px rgba(0, 42, 143, 0.25);
 }
 
 .freedomPollContainer button:hover::before {
@@ -725,27 +725,27 @@ input[type="radio"] {
 
 /* Error / Success messages */
 .error {
-  color: var(--accent-red-soft);
+  color: var(--accent-red);
   font-size: 0.88rem;
   margin-top: 12px;
   text-align: center;
   font-weight: 500;
   padding: 10px;
-  background: rgba(239, 68, 68, 0.1);
+  background: rgba(207, 20, 43, 0.06);
   border-radius: var(--radius-sm);
-  border: 1px solid rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(207, 20, 43, 0.2);
 }
 
 .success {
-  color: #4ade80;
+  color: #16a34a;
   font-size: 0.88rem;
   margin-top: 12px;
   text-align: center;
   font-weight: 500;
   padding: 10px;
-  background: rgba(74, 222, 128, 0.1);
+  background: rgba(22, 163, 74, 0.06);
   border-radius: var(--radius-sm);
-  border: 1px solid rgba(74, 222, 128, 0.2);
+  border: 1px solid rgba(22, 163, 74, 0.2);
 }
 
 /* --- Progress bars --- */
@@ -1118,7 +1118,7 @@ span {
    SELECTION HIGHLIGHT
    ============================================================ */
 ::selection {
-  background: rgba(59, 130, 246, 0.3);
+  background: rgba(0, 42, 143, 0.15);
   color: var(--text-primary);
 }
 
