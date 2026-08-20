@@ -32,10 +32,23 @@ export default function Home() {
 
           He acudido al hospital en un intento de utilizar la BCI como prueba para demostrar al mundo lo que está ocurriendo en mi cerebro y obtener evidencia de las torturas a las que he sido sometido. Es una coartada perfecta, pero aún así hago la denuncia con la esperanza de que alguna agencia de inteligencia respalde mi testimonio, ya que sé que están al tanto de la existencia de esta tecnología y de los abusos que se están cometiendo con ella.<br /><br />
 
+          <b>Actualización (agosto de 2026, Colombia): Libertad</b><br /><br />
+
+          Tras años de torturas, sin esperanza de que la libertad llegara, de repente la recibo. He ganado mucha más autonomía y las voces se silencian en mi cerebro. Fue la llegada de un nuevo gobierno en Colombia, algo que mi mente no era capaz de procesar como una esperanza de cambio.<br /><br />
+
+          No puedo asegurar cómo sucedió todo, pero, al parecer, Raúl Castro, Pedro Sánchez y Gustavo Petro —todos de gobiernos corruptos y de izquierda— participaron en las infames torturas que he sufrido todo este tiempo por órdenes de los Castro en Cuba. Tengo que aclarar que no tengo otra prueba más que mi cambio de situación. En 2021, a mi llegada a Colombia por dos meses, también recibí la libertad, pero fui expulsado del país; entre Cuba y España, opté por la segunda.<br /><br />
+
+          Esto me lleva a teorizar (de nuevo aclaro: no tengo pruebas) que se trata de una tecnología que manejan los Estados y que por alguna razón se ha mantenido oculta a la humanidad.<br /><br />
+
+          No creo que la denuncia que hago logre un gran cambio, pues resulta muy difícil de creer. Aun así, he recibido advertencias en el cerebro de que no diga lo que me ocurre. No tengo otra opción: si no hago la denuncia, soy cómplice de la maldad que se está haciendo, y al hacerla, me informan que pueden seguir torturándome para que no queden expuestos los poderes de este mundo.<br /><br />
+
+          Por ahora disfruto de mucha más libertad; oren por mí y por la humanidad. Resulta sabio ahora pedir por los neuroderechos. Créanme, no es un problema del mañana; el Síndrome de La Habana así lo demuestra.<br /><br />
+
           Viva Cuba Libre.<br /><br />
+
           Patria y Vida.<br /><br />
         </article>
-      </section>      
+      </section>
     </>
   );
 }

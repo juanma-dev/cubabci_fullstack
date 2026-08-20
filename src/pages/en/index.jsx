@@ -32,6 +32,18 @@ function Home() {
 
                     I have gone to the hospital in an attempt to use the BCI as evidence to show the world what is happening in my brain and obtain evidence of the torture I have been subjected to. It is a perfect alibi, but I still make the complaint in the hope that some intelligence agency will support my testimony, since I know that they are aware of the existence of this technology and the abuses that are being committed with it.<br /><br />
 
+                    <b>Update (August 2026, Colombia): Freedom</b><br /><br />
+
+                    After years of torture, with no hope that freedom would ever arrive, I suddenly receive it. I have gained much more autonomy and the voices fall silent in my brain. It was the arrival of a new government in Colombia, something my mind was not able to process as a hope for change.<br /><br />
+
+                    I cannot say for certain how it all happened, but, apparently, Raúl Castro, Pedro Sánchez and Gustavo Petro —all from corrupt, left-wing governments— took part in the infamous tortures I have suffered all this time under the orders of the Castros in Cuba. I must clarify that I have no proof other than the change in my situation. In 2021, upon my arrival in Colombia for two months, I also received freedom, but I was expelled from the country; between Cuba and Spain, I chose the latter.<br /><br />
+
+                    This leads me to theorize (again, I clarify: I have no proof) that this is a technology handled by States and that, for some reason, it has been kept hidden from humanity.<br /><br />
+
+                    I do not believe that the complaint I am making will bring about a great change, since it is very hard to believe. Even so, I have received warnings in my brain not to tell what is happening to me. I have no other choice: if I do not make the complaint, I am complicit in the evil that is being done, and by making it, I am informed that they can keep torturing me so that the powers of this world are not exposed.<br /><br />
+
+                    For now I enjoy much more freedom; pray for me and for humanity. It is wise now to advocate for neurorights. Believe me, this is not a problem for tomorrow; Havana Syndrome proves it.<br /><br />
+
                     Viva Cuba Libre.<br /><br />
                     Patria y Vida.<br /><br />
                 </article>
